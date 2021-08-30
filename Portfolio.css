@@ -136,5 +136,4 @@ section:nth-child(2n+1){
     display:flex;
     flex-wrap: wrap;
     justify-content: space-between;
-     
 }
