@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
     margin:0px;
     font-family: sans-serif;
@@ -200,3 +201,109 @@ section:nth-child(2n+1){
 .mb-red{
     background-color: rgb(233, 96, 96);
 }
+=======
+body{
+    margin:0px;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+/* Body Header or Navigation Bar */
+
+#body-header{
+    background-image: url(img/mac.jpg);
+    height:65vh;
+    opacity: 0.8;
+    background-size: cover;
+    background-position:center;
+    background-attachment: fixed;
+    padding-top: 1.2rem;
+}
+
+.nav-bar{
+    margin: 0px;
+    list-style: none;
+    padding-left: 0px;
+}
+
+.nav-bar li{
+    display: inline-block;
+    margin: 0px 8px;  
+    font-weight: 100;
+    font-size: 1.1rem;
+}
+
+.nav-bar li a{
+    color:white;
+    text-decoration: none;
+}
+
+.nav-hover li a {
+    transition: color 0.5s, border-bottom 4s;
+}
+
+.nav-hover li a:hover{
+    color:lightgray;
+    border-bottom: 1px dashed black;
+}
+
+/* Name & Socials */
+
+#name-social-container {
+    margin-top: 20vh;
+}
+
+#name{
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.social li {
+    border-radius: 50%;
+}
+
+.social li:hover {
+    box-shadow: 0px 0px 6px 4px rgba(230, 196, 196, 0.3);
+}
+
+.social li a img {
+    width: 1rem;
+    padding: 8px;
+}
+/* About section */
+#about{
+    position: relative;
+    height:auto;
+    width:100%;
+}
+#my-image{
+    height:14rem;
+    width:14rem;
+    margin: auto;
+    margin-top: -17vh;
+}
+#profile img{
+    height: 100%;
+    width:100%; 
+    border-radius: 50%;
+    border: 3px solid white;
+    box-shadow: 1px 1px 10px 4px lightgray;
+   
+}
+#about-para {
+    padding: 10px;
+    width: 70%;
+    text-align: justify;
+    color: grey;
+    line-height: 28px;
+    font-size: 1.1rem;
+    margin: auto;
+}
+>>>>>>> 9092ae81f135f17f105d913a266ab7d59f7bbc7d
