@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 body{
     margin:0px;
     font-family: sans-serif;
@@ -201,7 +201,7 @@ section:nth-child(2n+1){
 .mb-red{
     background-color: rgb(233, 96, 96);
 }
-=======
+
 body{
     margin:0px;
     font-family: sans-serif;
@@ -306,4 +306,4 @@ body{
     font-size: 1.1rem;
     margin: auto;
 }
->>>>>>> 9092ae81f135f17f105d913a266ab7d59f7bbc7d
+
