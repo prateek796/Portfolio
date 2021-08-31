@@ -178,7 +178,9 @@ section:nth-child(2n+1){
 .ninety-five-percent{
     width:95%;
 }
-
+.twenty-five-percent{
+    width:25%;
+}
 /* margin and background-color */
 .mb75px{
     margin-bottom: 75px;
@@ -190,16 +192,19 @@ section:nth-child(2n+1){
 }
 .mb-orange{
     
-    background-color: orange;
+    background-color: rgb(241, 180, 66);
 }
 .mb-teal{
     background-color: teal;
 }
 .mb-purple{
-    background-color: rgb(212, 49, 212);
+    background-color: rgb(236, 90, 236);
 }
 .mb-red{
     background-color: rgb(233, 96, 96);
+}
+.mb-khaki{
+    background-color: rgb(243, 227, 83);
 }
 
 body{
