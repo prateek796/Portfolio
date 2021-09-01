@@ -313,17 +313,41 @@ body{
 }
 /* Portfolio Section */
 .portfolio-display{
-    width: 75%;
+    box-sizing: border-box;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0 50px;
+    margin-bottom: 20px;
+    width: 80%;
 }
-.img-height{
-    height: 350px;
-    width: 350px;
+.portfolio-image{
+    overflow: hidden;
+    max-width: 300px;
+    margin:10px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-
-#div1{
-    height:350px;
-    width:350px;
+.portfolio-image img {
+    width: 100%;
+    height: 100%;
+}
+.portfolio-details {
+    transition: all 0.5s ease-in-out;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    color: transparent;
+    text-align: center;
+    padding: 10px;
+}
+.portfolio-image:hover {
+    box-shadow: 0 0 20px #74ADC8;
+}
+.portfolio-image:hover .portfolio-details {
+    background-color: #80808078;
+    color: white;
 }
 
