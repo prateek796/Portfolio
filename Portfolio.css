@@ -311,4 +311,13 @@ body{
     font-size: 1.1rem;
     margin: auto;
 }
-
+/* Portfolio Section */
+.portfolio-display{
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.img-height{
+    height: 350px;
+    width: 350px;
+}
