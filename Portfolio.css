@@ -346,7 +346,6 @@ body{
 .portfolio-image:hover {
     box-shadow: 0 0 20px #74ADC8;
 }
-
 .portfolio-image:hover .portfolio-details {
     background-color: #80808078;
     color: white;
