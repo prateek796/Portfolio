@@ -133,7 +133,7 @@ section:nth-child(2n+1){
 }
 /* Skills Section */
 .skills-display{
-    width:75%;
+    width:70%;
     padding: 10px;
     margin-bottom: 30px;
     display:flex;
