@@ -197,16 +197,9 @@ section:nth-child(2n+1){
 .mb-teal{
     background-color: teal;
 }
-.mb-purple{
-    background-color: rgb(236, 90, 236);
-}
 .mb-red{
     background-color: rgb(233, 96, 96);
 }
-.mb-khaki{
-    background-color: rgb(100, 189, 248);
-}
-
 body{
     margin:0px;
     font-family: sans-serif;
@@ -350,4 +343,77 @@ body{
     background-color: #80808078;
     color: white;
 }
+/* Contact Section */
+.contact-display{
+    display:flex;
+    margin-top: 0;
+    margin-bottom: 3%;
+}
+.contact-color span{
+    color: white;
+}
+#contact{
+    background: linear-gradient(50deg,#2857a4 0%,#403066 74%);
+    color:white;
+    padding-bottom: 40px;
+}
+#form{
+    margin-left:20%;
+}
+.contact-details p{
+    font-size: 0.9rem;
+}
+.contact-details h4{
+    font-size: 1.3rem;
+    margin:0px 0px 10px 0px;
+    font-weight: 550;
+}
+.contact-details span{
+font-size: 1rem;
+}
+.contact-details {
+    width: 35%;
+    margin-left: 6%;
+    margin-top: 20px;
+}
+.my-details-info-container {
+    margin-bottom: 20px;
+    color: #d9dcdd;
+    font-size: 1rem;
+}
+#contact-form{
+    width:50%;
+}
+#contact-form input,
+textarea {
+    max-width: 90%;
+    margin: 15px;
+    padding: 4px 10px;
+    border: 0px solid transparent;
+    border-bottom: 2px solid white;
+    color: #d9dcdd;
+    background: transparent;
+    width: 90%;
+    line-height: 1.6;
+    font-size: 1.05rem;
+}
+#contact-form button[type="submit"] {
+    background: transparent;
+    font-size: 0.95rem;
+    border: 2px solid white;
+    margin-top: 5%;
+    margin-left: 35%;
+    border-radius: 2px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.046875em;
+    line-height: 1;
+    padding: 0.8em 0.8em 0.78em;
+    text-transform: uppercase;
+}
 
+#contact-form button:hover {
+    background: white;
+    color: #13386fe0;
+}
