@@ -76,6 +76,7 @@ body{
 }
 
 /* Section*/
+
 section{
     width:100%;
     display:flex;
@@ -102,7 +103,9 @@ section:nth-child(2n+1){
    margin-right:0.5rem;
    }
    
+
 /* About section */
+
 #about{
     position: relative;
     height:auto;
@@ -131,7 +134,9 @@ section:nth-child(2n+1){
     font-size: 1.1rem;
     margin: auto;
 }
+
 /* Skills Section */
+
 .skills-display{
     width:70%;
     padding: 10px;
@@ -159,55 +164,6 @@ section:nth-child(2n+1){
     font-size: 1.2rem;
     margin-left: 10px;
     vertical-align:middle;
-
-}
-/* percentage classes */
-.eighty-five-percent{
-    width: 85%;
-    height:inherit
-}
-.eighty-percent{
-    width:80%;
-}
-.fifty-five-percent{
-    width:55%;
-}
-.sixty-five-percent{
-    width:55%;
-}
-.ninety-five-percent{
-    width:95%;
-}
-.twenty-five-percent{
-    width:25%;
-}
-/* margin and background-color */
-.mb75px{
-    margin-bottom: 75px;
-}
-
-/* mb colors */
-.mb-blue{
-    background-color: #2857a4;
-}
-.mb-orange{
-    
-    background-color: rgb(241, 180, 66);
-}
-.mb-teal{
-    background-color: teal;
-}
-.mb-red{
-    background-color: rgb(233, 96, 96);
-}
-body{
-    margin:0px;
-    font-family: sans-serif;
-    font-size: 30px;
-}
-
-.text-center{
-    text-align: center;
 }
 
 /* Body Header or Navigation Bar */
@@ -275,7 +231,9 @@ body{
     width: 1rem;
     padding: 8px;
 }
+
 /* About section */
+
 #about{
     position: relative;
     height:auto;
@@ -304,7 +262,9 @@ body{
     font-size: 1.1rem;
     margin: auto;
 }
+
 /* Portfolio Section */
+
 .portfolio-display{
     box-sizing: border-box;
     display: flex;
@@ -343,46 +303,62 @@ body{
     background-color: #80808078;
     color: white;
 }
+
 /* Contact Section */
-.contact-display{
-    display:flex;
-    margin-top: 0;
-    margin-bottom: 3%;
-}
-.contact-color span{
-    color: white;
-}
+
 #contact{
     background: linear-gradient(50deg,#2857a4 0%,#403066 74%);
     color:white;
     padding-bottom: 40px;
 }
-#form{
-    margin-left:20%;
+#contact h1,
+#contact h1 span {
+    color: white;
 }
-.contact-details p{
-    font-size: 0.9rem;
+#contact-form {
+    margin-left: 20%;
 }
-.contact-details h4{
-    font-size: 1.3rem;
-    margin:0px 0px 10px 0px;
-    font-weight: 550;
-}
-.contact-details span{
-font-size: 1rem;
+.contact-display{
+    display:flex;
+    margin-bottom: 2%;
 }
 .contact-details {
     width: 35%;
     margin-left: 6%;
-    margin-top: 20px;
+}
+#my-details-container {
+    width: 35%;
+    margin-left: 6%;
+}
+
+#my-details-container h4 {
+    color: white;
+    font-weight: 550;
+    font-size: 1.2rem;
+}
+#my-details-container p {
+    color: #d9dcdd;
+    font-size: 0.9rem;
+}
+
+#contact-form-container {
+    width: 50%;
 }
 .my-details-info-container {
     margin-bottom: 20px;
     color: #d9dcdd;
     font-size: 1rem;
 }
-#contact-form{
-    width:50%;
+.my-details-info-container span {
+    margin-left: 0.4rem;
+}
+
+.my-details-info-container i {
+    color: white;
+}
+#contact-form button:hover {
+    background: white;
+    color: #13386fe0;
 }
 #contact-form input,
 textarea {
@@ -412,8 +388,61 @@ textarea {
     padding: 0.8em 0.8em 0.78em;
     text-transform: uppercase;
 }
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
 
-#contact-form button:hover {
-    background: white;
-    color: #13386fe0;
+/* percentage classes */
+
+.eighty-five-percent{
+    width: 85%;
+    height:inherit
+}
+.eighty-percent{
+    width:80%;
+}
+.fifty-five-percent{
+    width:55%;
+}
+.sixty-five-percent{
+    width:55%;
+}
+.ninety-five-percent{
+    width:95%;
+}
+.twenty-five-percent{
+    width:25%;
+}
+
+/* margin and background-color */
+
+.mb75px{
+    margin-bottom: 75px;
+}
+.mb-blue{
+    background-color: #2857a4;
+}
+.mb-orange{
+    
+    background-color: rgb(241, 180, 66);
+}
+.mb-teal{
+    background-color: teal;
+}
+.mb-red{
+    background-color: rgb(233, 96, 96);
+}
+
+/* Body and text-center */
+body{
+    margin:0px;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+.text-center{
+    text-align: center;
 }
