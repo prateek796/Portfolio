@@ -479,12 +479,15 @@ button:focus {
         flex-direction: column;
     }
     #contact-form-container{
-        width:80%;
+        width:90%;
         
     }
     #my-details-container{
         width:80%;
         margin-left: 15%;
+    }
+    #contact-form{
+        margin-left:15%
     }
 }
 
