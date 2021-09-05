@@ -489,6 +489,9 @@ button:focus {
     #contact-form{
         margin-left:15%
     }
+    #contact-form input , textarea{
+        max-width:100%;
+    }
 }
 
 /* percentage classes */
