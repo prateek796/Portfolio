@@ -263,6 +263,81 @@ section:nth-child(2n+1){
     margin: auto;
 }
 
+/* Work Experience */
+.timeline{
+    width:75%;
+    border:2px solid black;
+    position: relative;
+}
+.timeline-box{
+    position: relative;
+    width:40%;
+    border: 2px solid black;
+    margin: 5px;
+    left:5%;
+    min-height:150px;
+}
+.timeline-box:nth-child(2n){
+    left:53%;
+}
+.timeline-box:nth-child(2n)::after{
+    content: "";
+    border-radius: 50%;
+    background-color: lightgray;
+    top:25%;
+    width: 0.7rem;
+    height: 0.7rem;
+    position: absolute;
+    left:-10%;
+    z-index: 1;
+}
+.timeline-box:nth-child(2n+1)::after{
+    content: "";
+    border-radius: 50%;
+    background-color: lightgray;
+    top:27%;
+    width: 0.7rem;
+    height: 0.7rem;
+    position: absolute;
+    right:-12.5%;
+    z-index: 1;
+
+}
+.timeline-divider{
+    position:absolute;
+    width: 0;
+    height: 75%;
+    border: 1.5px dashed grey;
+    top:10%;
+    left:50%;
+}
+
+.timeline-traveller{
+    position:sticky;
+    top:20%;
+    transform: rotate(90deg);
+    color:#2857a4;
+    z-index: 2;
+}
+/* Responsive */
+
+@media screen and (max-width:768px) {
+    .timeline-divider{
+        left:5%;
+    }
+    .timeline-box:nth-child(2n+1)::after{
+        left:-10.5% ;
+    }
+    .timeline-box:nth-child(2n)::after{
+        left:-10.5%;
+    }
+    .timeline-box{
+        left:12% !important;
+        width:85%;
+    }
+}
+
+
 /* Portfolio Section */
 
 .portfolio-display{
@@ -395,6 +470,24 @@ button:focus {
     outline: none;
 }
 
+/* Responsive */
+
+@media screen and (max-width:768px) {
+    .contact-display{
+        display: flex;
+        flex-wrap: wrap ;
+        flex-direction: column;
+    }
+    #contact-form-container{
+        width:80%;
+        
+    }
+    #my-details-container{
+        width:80%;
+        margin-left: 15%;
+    }
+}
+
 /* percentage classes */
 
 .eighty-five-percent{
@@ -445,4 +538,10 @@ body{
 
 .text-center{
     text-align: center;
+}
+
+/* Responsive */
+
+@media screen and (max-width:768) {
+    
 }
