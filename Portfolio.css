@@ -47,6 +47,69 @@ body{
     color:lightgray;
     border-bottom: 1px dashed black;
 }
+.hamburger{
+    background-color: transparent;
+    color: white;
+    border: 0;
+    font-size: 2rem;
+    cursor: pointer;
+    display: none;
+    margin-right: 5%;
+}
+.no-list-style{
+    list-style: none;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+}
+.no-list-style li a{
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 150;
+}
+.dropdown-content{
+    margin: 0;
+    display: none;
+    background-color: #828470;
+    box-shadow: 0px 4px 8px 1px #535547;
+    
+}
+.dropdown-content ul{
+    margin: 0.2rem 0.2rem;
+    text-align: left;
+    padding: 0px 0.8rem;
+}
+.dropdown-menu:hover .dropdown-content{
+    display: block;
+    position: absolute;
+    right: 3%;
+}
+
+
+
+/* Responsiveness */
+
+@media screen and (max-width:620px) {
+    .nav-hover{
+        display: none;
+    }
+    .hamburger{
+        display: block;
+    }
+    .hamburger a{
+        color: white;
+    }
+    .hamburger-container{
+        display: flex;
+        flex-direction: row-reverse; 
+    }
+     #name-social-container {
+        margin-top: 23vh !important;
+    }
+    
+    
+}
 
 /* Name & Socials */
 
